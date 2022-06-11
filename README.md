@@ -43,8 +43,8 @@
 | Column  | Type      | Options                         |
 | --------| --------- |-------------------------------- |       
 | content | string    |                                 |
-| user    | referemces| null: false, foreign_keys: true |
-| room    | referemces| null: false, foreign_keys: true |
+| user    | references| null: false, foreign_keys: true |
+| room    | references| null: false, foreign_keys: true |
 
 ### Association
 
